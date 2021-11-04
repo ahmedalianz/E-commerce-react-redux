@@ -1,0 +1,37 @@
+.shipping-block {
+  background-color: #edecec;
+  padding: 15px 35px;
+}
+.shipping-head {
+  background-color: white;
+  display: grid;
+  padding: 15px;
+  border-radius: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+@media screen and (max-width: 800px) {
+  .shipping-head {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 440px) {
+  .shipping-head {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.shipping-item {
+  display: flex;
+  align-items: center;
+}
+.shipping-item p {
+  width: 80%;
+  padding-left: 20px;
+}
+.shipping-icon {
+  font-size: 24px;color: #751fff;
+
+}

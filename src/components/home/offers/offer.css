@@ -1,0 +1,117 @@
+.offers-section {
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+.offer-image-block {
+  display: flex;
+  justify-content: space-evenly;
+}
+.offer-image-block .card {
+  width: 100%;
+  box-shadow: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.offer-image-item {
+  width: 100%;
+  position: relative;
+  padding: 30px 20px;
+}
+.offers-head {
+  padding: 20px;
+}
+.offers-head h1 {
+  font-size: 20px;
+  font-weight: 900;
+}
+.offers-head button {
+  border-radius: 45px;
+  border: none;
+  padding: 6px 30px;
+  transition: all 0.5s ease;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  -ms-border-radius: 45px;
+  -o-border-radius: 45px;
+}
+#button-link1 {
+  text-decoration: none;
+  color: rgb(15, 133, 201);
+}
+#button-link2 {
+  text-decoration: none;
+  color: rgb(141, 8, 8);
+}
+#headphonebutton:hover {
+  background-color: rgb(141, 8, 8);
+}
+#headphonebutton:hover #button-link2 {
+  color: white;
+}
+#phonebutton:hover #button-link1 {
+  color: white;
+}
+#phonebutton:hover {
+  background-color: rgb(15, 133, 201);
+}
+#phoneofferh1 {
+  color: rgb(184, 15, 15);
+}
+#headphoneofferh1 {
+  color: rgb(15, 133, 201);
+}
+@media screen and (max-width: 840px) {
+  .offers-head button {
+    padding: 6px 18px;
+    font-size: 12px;
+  }
+  #phoneofferh1 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 753px) {
+  .offers-head h1 {
+    font-size: 18px;
+  }
+  #phoneofferh1 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .offers-head h1 {
+    font-size: 14.5px;
+  }
+  #phoneofferh1 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .offer-image-block {
+    display: block;
+  }
+  .offer-image-item {
+    width: 100%;
+    position: relative;
+    padding: 7px 0;
+  }
+  .offers-head h1,
+  #phoneofferh1 {
+    font-size: 30px;
+  }
+  .offers-head button {
+    padding: 6px 30px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .offers-head h1,
+  #phoneofferh1 {
+    font-size: 20px;
+  }
+}

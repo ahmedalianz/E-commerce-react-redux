@@ -1,0 +1,176 @@
+/* -------------------------help-woman------------------- */
+.help-block
+    position: fixed
+    z-index: 5
+    top: -600px
+    opacity: 0
+    left: -850px
+    animation: help 3s ease 40s forwards
+    -webkit-animation: help 3s ease 40s forwards
+
+.none
+    display: none
+
+@keyframes help
+    to
+        opacity: 1
+        left: 0
+        top: 200px
+
+.help-woman
+    z-index: 16
+    bottom: 0
+    position: absolute
+
+.help-text
+    background-color: #2f086d
+    width: 80%
+    height: 250px
+    z-index: 15
+    padding: 30px
+    border-radius: 20px
+    -webkit-border-radius: 20px
+    -moz-border-radius: 20px
+    -ms-border-radius: 20px
+    -o-border-radius: 20px
+
+.help-text
+    h1
+        color: white
+        margin-left: 270px
+        font-weight: 900
+        font-size: 45px
+
+.help-text
+    .close
+        background: none
+        font-weight: 900
+        font-size: 30px
+        color: rgb(253, 253, 253)
+        left: 77%
+        border: inset 5px rgb(15, 175, 238)
+        top: 0
+        background-color: rgb(112, 209, 196)
+        border-bottom-left-radius: 28px
+        position: absolute
+        z-index: 25
+
+.help-text
+    .help-button
+        position: absolute
+        z-index: 20
+        left: 40%
+        color: white
+        top: 70%
+        background-color: #1f6dff
+        border-radius: 45px
+        border: none
+        padding: 10px 50px
+        -webkit-border-radius: 45px
+        -moz-border-radius: 45px
+        -ms-border-radius: 45px
+        -o-border-radius: 45px
+        transition: all 0.5s ease
+
+.help-text
+    .help-button
+        &:hover
+            background-color: white
+            color: #2f086d
+
+@media screen and (max-width: 1040px)
+    .help-text
+        h1
+            font-size: 40px
+
+@media screen and (max-width: 845px)
+    .help-text
+        h1
+            font-size: 29px
+
+    .help-text
+        .close
+            left: 75%
+
+@media screen and (max-width: 657px)
+    .help-text
+        h1
+            font-size: 25px
+            font-weight: normal
+            margin-left: 220px
+
+    .help-text
+        .help-button
+            padding: 4px 30px
+            left: 45%
+            font-size: 17px
+
+    .help-text
+        height: 220px
+
+    .help-woman
+        width: 80%
+
+    .help-text
+        .close
+            left: 74%
+
+@media screen and (max-width: 540px)
+    .help-text
+        h1
+            font-size: 22px
+            margin-left: 160px
+
+    .help-text
+        height: 180px
+
+    .help-text
+        .close
+            left: 72%
+
+@media screen and (max-width: 483px)
+    .help-text
+        h1
+            font-size: 18px
+            margin-left: 160px
+
+    .help-text
+        height: 150px
+
+    .help-text
+        .close
+            left: 71%
+
+    .help-text
+        .help-button
+            padding: 4px 24px
+            left: 45%
+            font-size: 14px
+
+@media screen and (max-width: 446px)
+    .help-text
+        h1
+            font-size: 14px
+            margin-left: 120px
+
+    .help-text
+        height: 150px
+
+    .help-text
+        .close
+            left: 71%
+            font-size: 20px
+
+    .help-text
+        .help-button
+            padding: 4px 20px
+            left: 45%
+            font-size: 12px
+
+/* ---------------------------------------------------------------- */
+/* -----------------------------Help center----------------------------------- */
+.help-center
+    width: 60%
+    min-width: 330px
+    padding: 15px
+    margin: auto

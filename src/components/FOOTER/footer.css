@@ -1,0 +1,74 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.globaldark {
+  background-color: #2e2424;
+}
+
+.globallight {
+  background-color: #edecec;
+}
+
+.globallightcolor {
+  color: white;
+}
+
+.globalcenter {
+  text-align: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.footer-block {
+  background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#bba395));
+  background: linear-gradient(to right, #ffffff, #bba395);
+  padding: 15px 40px;
+}
+
+.footer-block a {
+  text-decoration: none;
+  color: #751fff;
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.footer-block h6:hover a {
+  padding: 3px;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+
+.footer-head {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 5px;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+}
+
+@media screen and (max-width: 588px) {
+  .footer-head {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .footer-head {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=footer.css.map */

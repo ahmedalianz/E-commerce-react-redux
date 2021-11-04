@@ -1,0 +1,301 @@
+/* ---------------------nav1 styles------------------ */
+.nav1 {
+  font-family: "Balsamiq Sans", cursive;
+  color: white;
+  background-color: #1992b0;
+}
+
+.nav1-links a {
+  margin-right: 20px;
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#nav1-bars {
+  font-size: 23px;
+  display: none;
+}
+
+@media screen and (max-width: 880px) {
+
+  .nav1 p,
+  .nav1-links a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+
+  .nav1 p,
+  .nav1-links a {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .nav1-links {
+    display: none;
+  }
+
+  .nav1-links a {
+    display: block;
+  }
+
+  .nav1 p {
+    font-size: 15px;
+  }
+
+  #nav1-bars {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+/* ------------------menu labtop--------------------- */
+.notshown1 {
+  left: -1200px;
+  opacity: 0;
+  transform: rotate(-160deg);
+  -webkit-transform: rotate(-160deg);
+  -moz-transform: rotate(-160deg);
+  -ms-transform: rotate(-160deg);
+  -o-transform: rotate(-160deg);
+}
+
+.shown1 {
+  left: 0;
+  opacity: 1;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+}
+
+.menu {
+  position: fixed;
+  z-index: 10;
+  transition: all 0.3s ease;
+  top: 70px;
+  width: 80%;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.menu img {
+  width: 100%;
+}
+
+.power {
+  left: 270px;
+  top: 35px;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+}
+
+.hand {
+  top: 35px;
+  left: 60px;
+  top: 35px;
+  cursor: pointer;
+  color: white;
+  position: absolute;
+}
+
+.pointer {
+  top: 120px;
+  left: 280px;
+  position: absolute;
+}
+
+.pointeranim {
+  animation: pointer 0.5s ease 0.5s forwards;
+  -webkit-animation: pointer 0.5s ease 0.5s forwards;
+}
+
+@-webkit-keyframes pointer {
+  to {
+    top: 44px;
+    left: 72px;
+  }
+}
+
+@keyframes pointer {
+  to {
+    top: 44px;
+    left: 72px;
+  }
+}
+
+.canvas-links {
+  top: 35px;
+  left: 80px;
+  opacity: 0;
+  position: absolute;
+  transition: all 1s ease;
+  transform: rotate(-6deg);
+  -webkit-transform: rotate(-6deg);
+  -moz-transform: rotate(-6deg);
+  -ms-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+.canvas-links a {
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  color: white;
+  margin-bottom: 10px;
+  display: block;
+  font-size: 20px;
+}
+
+.canvas-links a:hover {
+  color: white;
+  transform: translate(15px);
+  -moz-transform: translate(15px);
+  -ms-transform: translate(15px);
+  -o-transform: translate(15px);
+  -webkit-transform: translate(15px);
+}
+
+.listanim {
+  animation: links 0.5s ease 1s forwards;
+  -webkit-animation: links 0.5s ease 1s forwards;
+}
+
+@-webkit-keyframes links {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes links {
+  to {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 592px) {
+  .power {
+    left: 230px;
+  }
+
+  .canvas-links a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 504px) {
+  .power {
+    left: 175px;
+  }
+
+  .canvas-links {
+    left: 50px;
+  }
+
+  .canvas-links a {
+    font-size: 12px;
+  }
+
+  .hand {
+    left: 30px;
+    top: 30px;
+  }
+
+  .pointer {
+    left: 200px;
+  }
+}
+
+@keyframes pointer {
+  to {
+    top: 35px;
+    left: 40px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .menu {
+    width: 110%;
+  }
+}
+
+/* ------------------------------------------------------ */
+/* ---------------------nav2 styles------------------ */
+#shopping-cart {
+  color: #751fff;
+}
+
+.nav2 {
+  padding: 0;
+}
+
+.logo {
+  width: 20%;
+}
+
+@media screen and (max-width: 580px) {
+  .logo-block {
+    width: 50%;
+  }
+
+  .logo {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logo {
+    width: 60%;
+  }
+}
+
+#shopping-cart {
+  font-size: 35px;
+  position: relative;
+}
+
+#incart-number {
+  position: absolute;
+  left: 32px;
+  font-size: 15px;
+  padding: 5px 8px;
+  bottom: 22px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+/* ------------------------------------------------------ */
+/* ---------------------nav3 styles------------------ */
+.nav3 {
+  padding: 0;
+  background-color: #edecec;
+}
+
+.nav3-links {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.nav3-links-red {
+  font-size: 14px;
+  font-weight: bold;color: #751fff;
+}
+
+
+/* ------------------------------------------------------ */

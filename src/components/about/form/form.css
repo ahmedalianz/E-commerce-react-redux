@@ -1,0 +1,57 @@
+.form-ligh {
+  background: #141e30;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #43bed1, #bb5e29);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #43bed1, #bb5e29);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.form-signin-light {
+  width: 60%;
+  min-width: 330px;
+  padding: 15px;
+  margin: auto;
+  color: #212121;
+  border-left: 4px solid #ff993b;
+  border-right: 4px solid #36b6ca;
+  border-radius: 25px;
+}
+
+.form-dark {
+  background: #141e30;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c323a, #071e49);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243b55, #141e30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.form-signin-dark {
+  width: 60%;
+  min-width: 330px;
+  padding: 15px;
+  margin: auto;
+  color: #000000;
+  border: 4px solid #ff993b;
+  border-radius: 25px;
+}
+
+.form-signin input {
+  margin: 10px 0;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}

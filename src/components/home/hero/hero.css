@@ -1,0 +1,126 @@
+/* -----------------hero head------------------ */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.globaldark {
+  background-color: #2e2424;
+}
+
+.globallight {
+  background-color: #edecec;
+}
+
+.globallightcolor {
+  color: white;
+}
+
+.globalcenter {
+  text-align: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.hero-head {
+  width: 60%;
+  padding: 70px 20px;
+}
+
+.hero-head p:nth-child(1) {
+  color: white;
+  background-color: #d72d2d;
+  display: inline-block;
+  padding: 0 8px;
+}
+
+.hero-head h1 {
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.hero-head button {
+  color: white;
+  background-color: #751fff;
+  border-radius: 45px;
+  border: none;
+  padding: 10px 50px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  -ms-border-radius: 45px;
+  -o-border-radius: 45px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.hero-head button:hover {
+  background-color: #000000;
+}
+
+/* ------------------------------ */
+/* -----------------hero image ------------ */
+.hero-image-block {
+  position: absolute;
+  animation: hero-image 2s ease-in-out infinite alternate;
+  -webkit-animation: hero-image 2s ease-in-out infinite alternate;
+  width: 350px;
+  right: 100px;
+}
+
+@-webkit-keyframes hero-image {
+  from {
+    top: 70px;
+  }
+  to {
+    top: 90px;
+  }
+}
+
+@keyframes hero-image {
+  from {
+    top: 70px;
+  }
+  to {
+    top: 90px;
+  }
+}
+
+/* ----------------------------- */
+@media screen and (max-width: 800px) {
+  .hero-head {
+    width: 50%;
+  }
+  .hero-head h1 {
+    font-size: 45px;
+  }
+  .hero-image-block {
+    width: 300px;
+    right: 50px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .hero-image-block {
+    width: 300px;
+    right: 100px;
+    margin-top: -75px;
+  }
+  .hero-head {
+    width: 100%;
+    padding: 240px 20px 0;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .hero-image-block {
+    right: 50px;
+    width: 250px;
+  }
+  .hero-head h1 {
+    font-size: 30px;
+  }
+}
+/*# sourceMappingURL=hero.css.map */

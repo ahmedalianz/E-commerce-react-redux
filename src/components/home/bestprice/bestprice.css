@@ -1,0 +1,199 @@
+.bestprice-block {
+  background-color: #edecec;
+  padding: 15px 12px;
+}
+.bestprice-head {
+  background-color: white;
+}
+.bestprice-item img {
+  width: 100%;
+}
+.bestprice-item {
+  position: relative;
+}
+.bestprice-text {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.bestprice-text button {
+  color: white;
+  background-color: var(--main-color);
+  border-radius: 45px;
+  border: none;
+  padding: 10px 50px;
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  -ms-border-radius: 45px;
+  -o-border-radius: 45px;
+  transition: all 0.5s ease;
+}
+.bestprice-text button:hover {
+  background-color: #c2d7ff;
+}
+.bestprice-text button:hover a {
+  color: black;
+}
+.bestprice-text a {
+  color: white;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+.bestprice-text h1 {
+  font-size: 80px;
+  color: var(--main-color);
+}
+.bestprice-text h3 {
+  margin-top: 85px;
+  width: 70%;
+}
+.best-span {
+  position: absolute;
+  top: 20%;
+  padding: 20px;
+  color: white;
+  font-size: 25px;
+  border-radius: 50%;
+  background-color: #d72d2d;
+  left: 35%;
+  transform: rotate(15deg);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transform: rotate(15deg);
+  -moz-transform: rotate(15deg);
+  -ms-transform: rotate(15deg);
+  -o-transform: rotate(15deg);
+}
+@media screen and (max-width: 1140px) {
+  .bestprice-text h3 {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 1010px) {
+  .bestprice-text h3 {
+    margin-top: 15px;
+  }
+  .bestprice-text h1 {
+    font-size: 60px;
+  }
+  .bestprice-text h2 {
+    font-size: 30px;
+  }
+  .bestprice-text h3 {
+    font-size: 25px;
+  }
+  .best-span {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 880px) {
+  .bestprice-text h3 {
+    margin-top: 10px;
+  }
+  .bestprice-text h1 {
+    font-size: 50px;
+  }
+  .bestprice-text h2 {
+    font-size: 20px;
+  }
+  .bestprice-text h3 {
+    font-size: 20px;
+  }
+  .bestprice-text p {
+    font-size: 15px;
+  }
+  .best-span {
+    font-size: 15px;
+  }
+  .bestprice-text button {
+    font-size: 15px;
+    padding: 8px 40px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .bestprice-text h2 {
+    font-size: 18px;
+  }
+  .bestprice-text h1 {
+    font-size: 40px;
+  }
+  .bestprice-text h3 {
+    font-size: 17px;
+  }
+  .bestprice-text p {
+    font-size: 13px;
+  }
+  .best-span {
+    font-size: 13px;
+    padding: 13px;
+    left: 35%;
+  }
+  .bestprice-text button {
+    font-size: 13px;
+    padding: 6px 30px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .bestprice-text {
+    top: 15px;
+    left: 15px;
+  }
+  .bestprice-text p {
+    margin-bottom: 3px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .bestprice-text h3 {
+    margin-top: 2px;
+  }
+  .best-span {
+    left: 33%;
+    font-size: 11px;
+    padding: 10px;
+  }
+  .bestprice-text h3 {
+    font-size: 11px;
+  }
+  .bestprice-text h1 {
+    font-size: 24px;
+  }
+  .bestprice-text h2 {
+    font-size: 13px;
+  }
+  .bestprice-text button {
+    font-size: 10px;
+    padding: 4px 21px;
+  }
+
+  .bestprice-text p {
+    margin: 1px;
+    font-size: 9px;
+  }
+}
+@media screen and (max-width: 406px) {
+  .bestprice-text h1 {
+    font-size: 20px;
+  }
+  .bestprice-text h2 {
+    font-size: 7px;
+  }
+  .bestprice-text h3 {
+    margin-top: 0;
+  }
+  .bestprice-text h3 {
+    font-size: 7px;
+  }
+  .bestprice-text p {
+    font-size: 5px;
+  }
+  .best-span {
+    left: 33%;
+  }
+  .bestprice-text button {
+    font-size: 7px;
+    padding: 2px 14px;
+  }
+}

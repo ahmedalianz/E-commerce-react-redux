@@ -1,0 +1,26 @@
+.seller-block {
+  background-color: #edecec;
+  padding: 15px 12px;
+}
+.seller-head {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.seller-item {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.seller-item img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+.best-tag {
+  position: absolute;
+}
