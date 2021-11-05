@@ -9,12 +9,21 @@ then
 
  **npm start** 
 
-![alt text](https://i.ibb.co/FHpfnxX/Screenshot-9.png)
-![alt text](https://i.ibb.co/phz6ytk/Screenshot-10.png)
+![alt text](https://i.ibb.co/t43txsH/Screenshot-1.png)
+![alt text](https://i.ibb.co/bsLzR5L/Screenshot-2.png)
+![alt text](https://i.ibb.co/PMYh2G0/Screenshot-3.png)
+![alt text](https://i.ibb.co/J2c0bNf/Screenshot-4.png)
+![alt text](https://i.ibb.co/hLs30TS/Screenshot-5.png)
+![alt text](https://i.ibb.co/xSQPVng/Screenshot-6.png)
+![alt text](https://i.ibb.co/0KR1nNM/Screenshot-7.png)
+![alt text](https://i.ibb.co/YZsRfj7/Screenshot-8.png)
+![alt text](https://i.ibb.co/pwqmRWt/Screenshot-9.png)
 ![alt text](https://i.ibb.co/JKPzT2q/Screenshot-11.png)
-![alt text](https://i.ibb.co/wNv3WnC/Screenshot-12.png)
-![alt text](https://i.ibb.co/VJjsJyX/Screenshot-13.png)
-![alt text](https://i.ibb.co/Np1Xw8K/Screenshot-14.png)
+![alt text](https://i.ibb.co/W2mc3J1/Screenshot-10.png)
+![alt text](https://i.ibb.co/TtcvvpB/Screenshot-11.png)
+![alt text](https://i.ibb.co/NFhHTyV/Screenshot-12.png)
+![alt text](https://i.ibb.co/B3XDC9c/Screenshot-13.png)
+![alt text](https://i.ibb.co/09rGf6B/Screenshot-14.png)
 it has some sample products on these sections mobiles-labtops-headphones-....
 
 sale section products have old price & new price
