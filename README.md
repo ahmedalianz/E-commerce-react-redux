@@ -1,6 +1,6 @@
 # E-commerce-Store App
 
-### Running on the following link : [E-commerce-Store App](https://e-store-z.web.app/)
+### Running on the following link : [E-commerce-Store App](https://e-store-z.firebaseapp.com/)
 To initiate the application you will need to do 
 
 **npm install**
