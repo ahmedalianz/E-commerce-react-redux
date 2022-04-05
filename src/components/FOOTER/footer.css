@@ -21,11 +21,19 @@ body {
 .globalcenter {
   text-align: center;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
 }
 
 .footer-block {
-  background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#bba395));
+  font-family: "Cairo", sans-serif;
+
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#ffffff),
+    to(#bba395)
+  );
   background: linear-gradient(to right, #ffffff, #bba395);
   padding: 15px 40px;
 }
@@ -53,21 +61,21 @@ body {
   display: -ms-grid;
   display: grid;
   margin-top: 5px;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
+  -ms-grid-columns: (1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 @media screen and (max-width: 588px) {
   .footer-head {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-columns: (1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (max-width: 380px) {
   .footer-head {
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-columns: (1fr);
+    grid-template-columns: repeat(1, 1fr);
     text-align: center;
   }
 }

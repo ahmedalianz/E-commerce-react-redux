@@ -1,24 +1,28 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './bestprice.css'
+import "./bestprice.css";
+
+import { Link } from "react-router-dom";
+import React from "react";
 
 export default function Bestprice() {
-
-    return (
-        <div className={`bestprice-block `}>
-            <div className="bestprice-head">
-                <div className='bestprice-item'>
-                    <div className='bestprice-text'>
-                        <h2>Save up to</h2>
-                        <h1>$150</h1>
-                        <h3>On selected Home Smart <span style={{ color: 'red' }}>TV</span>s</h3>
-                        <p>Terms and conditions apply</p>
-                        <button><Link to='/tvs'>Shop Now</Link></button>
-                    </div>
-                    <span className="best-span globalcenter">Best Price</span>
-                    <img src="images/bestprice/stve.jpg" alt="phone" />
-                </div>
-            </div>
+  return (
+    <div className={`bestprice-block py-4`}>
+      <div className="bestprice-head container">
+        <div className="bestprice-item">
+          <div className="bestprice-text">
+            <h2>وفر حتي</h2>
+            <h1>650 جنيه</h1>
+            <h3>
+              علي بعض اجهزه{" "}
+              <span style={{ color: "red" }}>التلفزيونات الذكية</span>
+            </h3>
+            <button>
+              <Link to="/tvs">تسوق الآن</Link>
+            </button>
+          </div>
+          <span className="best-span globalcenter">أفضل الاسعار</span>
+          <img src="images/bestprice/stve.jpg" alt="phone" />
         </div>
-    )
+      </div>
+    </div>
+  );
 }

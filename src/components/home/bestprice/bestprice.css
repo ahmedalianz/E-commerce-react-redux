@@ -1,9 +1,10 @@
 .bestprice-block {
   background-color: #edecec;
-  padding: 15px 12px;
+  font-family: "Cairo", sans-serif;
 }
 .bestprice-head {
   background-color: white;
+  padding: 0;
 }
 .bestprice-item img {
   width: 100%;
@@ -19,7 +20,7 @@
 
 .bestprice-text button {
   color: white;
-  background-color: var(--main-color);
+  background-color: #751fff;
   border-radius: 45px;
   border: none;
   padding: 10px 50px;
@@ -42,30 +43,26 @@
 }
 .bestprice-text h1 {
   font-size: 80px;
-  color: var(--main-color);
+  color: #751fff;
 }
 .bestprice-text h3 {
   margin-top: 85px;
   width: 70%;
+  text-align: left;
 }
 .best-span {
   position: absolute;
-  top: 20%;
+  bottom: 10%;
   padding: 20px;
   color: white;
   font-size: 25px;
   border-radius: 50%;
   background-color: #d72d2d;
-  left: 35%;
-  transform: rotate(15deg);
+  left: 5%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  -webkit-transform: rotate(15deg);
-  -moz-transform: rotate(15deg);
-  -ms-transform: rotate(15deg);
-  -o-transform: rotate(15deg);
 }
 @media screen and (max-width: 1140px) {
   .bestprice-text h3 {
@@ -85,9 +82,6 @@
   .bestprice-text h3 {
     font-size: 25px;
   }
-  .best-span {
-    font-size: 20px;
-  }
 }
 @media screen and (max-width: 880px) {
   .bestprice-text h3 {
@@ -105,9 +99,14 @@
   .bestprice-text p {
     font-size: 15px;
   }
-  .best-span {
-    font-size: 15px;
+  .bestprice-text {
+    left: 0;
   }
+  .best-span {
+    font-size: 18px;
+    bottom: 0;
+  }
+
   .bestprice-text button {
     font-size: 15px;
     padding: 8px 40px;
@@ -126,11 +125,7 @@
   .bestprice-text p {
     font-size: 13px;
   }
-  .best-span {
-    font-size: 13px;
-    padding: 13px;
-    left: 35%;
-  }
+
   .bestprice-text button {
     font-size: 13px;
     padding: 6px 30px;
@@ -140,9 +135,17 @@
   .bestprice-text {
     top: 15px;
     left: 15px;
+    text-align: center;
+  }
+  .bestprice-text h3 {
+    margin-right: 15px;
   }
   .bestprice-text p {
     margin-bottom: 3px;
+  }
+  .best-span {
+    font-size: 11px;
+    padding: 10px;
   }
 }
 @media screen and (max-width: 500px) {
@@ -150,7 +153,6 @@
     margin-top: 2px;
   }
   .best-span {
-    left: 33%;
     font-size: 11px;
     padding: 10px;
   }
@@ -188,9 +190,6 @@
   }
   .bestprice-text p {
     font-size: 5px;
-  }
-  .best-span {
-    left: 33%;
   }
   .bestprice-text button {
     font-size: 7px;

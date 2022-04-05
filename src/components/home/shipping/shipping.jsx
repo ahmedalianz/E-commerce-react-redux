@@ -1,25 +1,28 @@
-import React from "react"
-import './shipping.css'
+import "./shipping.css";
+
+import React from "react";
 
 export default function Shipping() {
-    return (<div className={`shipping-block`}>
-        <div className="shipping-head">
-            <div className='shipping-item'>
-                <i className="fas fa-truck shipping-icon"></i>
-                <p>Delivery any-where</p>
-            </div>
-            <div className='shipping-item'>
-                <i className="fas fa-box shipping-icon"></i>
-                <p>Free shipping on Orders over 350 $</p>
-            </div>
-            <div className='shipping-item'>
-                <i className="fas fa-dollar-sign shipping-icon"></i>
-                <p>Low Prices Guaranteed</p>
-            </div>
-            <div className='shipping-item'>
-                <i className="far fa-clock shipping-icon"></i>
-                <p>Available 24 / 7</p>
-            </div>
-        </div></div>
-    )
+  return (
+    <div className={`shipping-block py-4`}>
+      <div className="shipping-head container">
+        <div className="shipping-item">
+          <i className="fas fa-truck shipping-icon"></i>
+          <p>توصيل لاي مكان</p>
+        </div>
+        <div className="shipping-item">
+          <i className="fas fa-box shipping-icon"></i>
+          <p>توصيل مجاني للمشتريات بقيمه 350 جنيه او اكثر</p>
+        </div>
+        <div className="shipping-item">
+          <i className="fas fa-dollar-sign shipping-icon"></i>
+          <p>اسعار مناسبه</p>
+        </div>
+        <div className="shipping-item">
+          <i className="far fa-clock shipping-icon"></i>
+          <p>متاح 24 ساعه يوميا</p>
+        </div>
+      </div>
+    </div>
+  );
 }

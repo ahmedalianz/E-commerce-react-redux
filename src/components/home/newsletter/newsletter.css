@@ -1,13 +1,14 @@
 .newsletter-block {
-  padding: 15px 65px;
+  background-color: #edecec;
+  font-family: "Cairo", sans-serif;
 }
 .newsletter-block h3,
 .newsletter-block p {
   color: white;
 }
 .newsletter-head {
-  background-color: #751fff;;
-  padding: 15px 15px 20px;
+  background-color: #751fff;
+  padding: 10px;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -20,13 +21,13 @@
 .newsletter-block button {
   color: white;
   background-color: #000000;
-  border-radius: 45px;
+  border-radius: 300px !important;
   border: none;
   padding: 10px 50px;
-  -webkit-border-radius: 45px;
-  -moz-border-radius: 45px;
-  -ms-border-radius: 45px;
-  -o-border-radius: 45px;
+  -webkit-border-radius: 300px !important;
+  -moz-border-radius: 300px !important;
+  -ms-border-radius: 300px !important;
+  -o-border-radius: 300px !important;
   transition: all 0.5s ease;
 }
 .newsletter-block button:hover {
@@ -59,16 +60,17 @@
     padding: 5px 10px;
   }
   .newsletter-block button {
-    padding: 3px 8px;
-    font-size: 10px;
   }
 }
 @media screen and (max-width: 380px) {
   .newsletter-block .email {
     padding: 2px 2px;
+    flex-direction: column;
+  }
+  .newsletter-block .email input {
+    width: 100%;
   }
   .newsletter-block button {
-    padding: 0 6px;
-    font-size: 9px;
+    margin-top: 10px;
   }
 }

@@ -1,24 +1,32 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-import './special.css'
+import "./special.css";
+
+import { Link } from "react-router-dom";
+import React from "react";
+
 export default function Spectial() {
-    return (
-        <div className={`special-block `}>
-            <div className="special-head">
-                <div className='special-item'>
-                    <div className='special-text'>
-                        <h2>Today's Special</h2>
-                        <h1><span style={{ color: "#751FFF" }}>30%</span> OFF</h1>
-                        <div className='special-text-2'>
-                            <h3>On selected Smart <span style={{ color: 'red' }}>Watch</span>es</h3>
-                            <p>Terms and conditions apply</p>
-                            <button><Link to='/watches'>Shop Now</Link></button>
-                        </div>
-                    </div>
-                    <span className="special-span globalcenter">Very Smart</span>
-                    <img src="images/special/spe.jpg" alt="phone" />
-                </div>
+  return (
+    <div className={`special-block py-4`}>
+      <div className="special-head container">
+        <div className="special-item">
+          <div className="special-text">
+            <h2>عرض اليوم</h2>
+            <h1>
+              تخفيض
+              <span style={{ color: "#751FFF" }}>30%</span>{" "}
+            </h1>
+            <div className="special-text-2">
+              <h3>
+                علي بعض <span style={{ color: "red" }}>الساعات الذكيه</span>
+              </h3>
+              <button>
+                <Link to="/watches">تسوق الآن</Link>
+              </button>
             </div>
+          </div>
+          <span className="special-span globalcenter">أفضل جوده</span>
+          <img src="images/special/spe.jpg" alt="phone" />
         </div>
-    )
+      </div>
+    </div>
+  );
 }

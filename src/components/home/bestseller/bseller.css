@@ -1,10 +1,10 @@
 .seller-block {
   background-color: #edecec;
-  padding: 15px 12px;
+  font-family: "Cairo", sans-serif;
 }
 .seller-head {
   background-color: white;
-  padding: 15px;
+  padding: 15px 0;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -14,11 +14,13 @@
 .seller-item {
   width: 100%;
   display: flex;
+  justify-content: center;
   position: relative;
 }
 .seller-item img {
   width: 100%;
-  width: 100px;height: 100px;
+  width: 100px;
+  height: 100px;
   display: block;
   margin: 0 auto;
 }

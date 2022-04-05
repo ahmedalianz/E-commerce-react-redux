@@ -4,6 +4,14 @@
 }
 .cart-block {
   position: relative;
+  font-family: "Cairo", sans-serif;
+}
+.cart-block th {
+  text-align: center;
+}
+.cart-block td {
+  vertical-align: middle;
+  min-width: 120px;
 }
 .cart-block .clear {
   position: absolute;
@@ -23,29 +31,7 @@
 .cart-Tprice {
   position: relative;
 }
-.cart-controls-2 {
-  display: none;
-}
 
-@media screen and (max-width: 890px) {
-  .cart-controls,
-  .cart-control-head {
-    display: none;
-  }
-  .cart-controls-2 {
-    display: block;
-  }
-  .trash {
-    color: rgb(82, 7, 204);
-    font-size: 16px;
-    padding: 8px 15px;
-  }
-  .fa-plus-square,
-  .fa-minus-square {
-    font-size: 20px;
-    color: rgb(82, 7, 204);
-  }
-}
 @media screen and (max-width: 530px) {
   .cart-product-image {
     width: 100px;

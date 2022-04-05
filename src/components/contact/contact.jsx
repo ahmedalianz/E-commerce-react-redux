@@ -1,33 +1,37 @@
-import React from 'react'
-import './contact.css'
-import HelpForm from './helpform'
+import "./contact.css";
+
+import HelpForm from "./helpform";
+import React from "react";
+
 export default function Contact() {
-    return (
-        <div>
-            <h1 className="globalcenter">Get In Touch</h1>
-            <hr />
-            <div className="contact-block">
-                <div className='opening-block'>
-                    <div className='opening-item1'>
-                        <h3>Opening Hours</h3>
-                        <h6>Mon-Fri : 8 Am - 8 Pm</h6>
-                        <h6>Saturday : 9 Am - 7 Pm</h6>
-                        <h6>Sunday : 9 Am - 8 Pm</h6>
-                    </div>
-                    <div className='opening-item2'>
-                        <h3>Store Location</h3>
-                        <h6>Adress 1 </h6>
-                        <h6>Adress 2</h6>
-                        <h6>Adress 3</h6>
-                    </div>
-                </div>
-                <div className='form-blockz'>
-                    <h3>We're here to help!</h3>
-                    <p>Fill out the form with any quarry on your mind and we'll get back to you as soon as possible </p>
-                    <hr />
-                    <HelpForm />
-                </div>
-            </div>
+  return (
+    <div className="contact-cont">
+      <h1 className="globalcenter">تواصل معنا</h1>
+      <hr />
+      <div className="contact-block">
+        <div className="opening-block">
+          <div className="opening-item1">
+            <h3>ساعات العمل</h3>
+            <h6>الأحد-الخميس : 8 صباحا - 8 مساءا</h6>
+            <h6>الجمعه : 1 مساءا - 12 صباحا</h6>
+            <h6>السبت : 9 صباحا - 9 مساءا</h6>
+          </div>
+          <div className="opening-item2">
+            <h3>عناوين الموزعين</h3>
+            <h6>شارع 26 يوليو, قسم قصر النيل، محافظة القاهرة </h6>
+            <h6>الهرم، أولى الهرم، قسم العمرانية، الجيزة</h6>
+            <h6>
+              صلاح الدين عبد الكريم، قسم أول القاهرة الجديدة، محافظة القاهرة
+            </h6>
+          </div>
         </div>
-    )
+        <div className="form-blockz">
+          <h3>نحن هنا لمساعدتك !</h3>
+          <p>يمكنك ترك لنا رساله وسيتم الرد عليك بااسرع مايمكننا</p>
+          <hr />
+          <HelpForm />
+        </div>
+      </div>
+    </div>
+  );
 }

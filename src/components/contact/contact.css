@@ -1,6 +1,9 @@
+.contact-cont {
+  font-family: "Cairo", sans-serif;
+}
 .contact-block button {
   color: white;
-  background-color: var(--main-color);
+  background-color: #751fff;
   border-radius: 45px;
   border: none;
   margin: 10px;

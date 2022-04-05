@@ -1,9 +1,10 @@
 .special-block {
   background-color: #edecec;
-  padding: 15px 12px;
+  font-family: "Cairo", sans-serif;
 }
 .special-head {
   background-color: white;
+  padding: 0;
 }
 .special-item img {
   width: 100%;
@@ -25,7 +26,7 @@
 }
 .special-text button {
   color: white;
-  background-color: var(--main-color);
+  background-color: #751fff;
   border-radius: 45px;
   border: none;
   padding: 10px 50px;
@@ -57,37 +58,25 @@
 }
 .special-span {
   position: absolute;
-  top: 35%;
+  bottom: 10%;
   padding: 20px;
   color: white;
   font-size: 25px;
   border-radius: 50%;
   background-color: #d72d2d;
-  left: 45%;
-  transform: rotate(-15deg);
+  right: 5%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
-  -webkit-transform: rotate(-15deg);
-  -moz-transform: rotate(-15deg);
-  -ms-transform: rotate(-15deg);
-  -o-transform: rotate(-15deg);
 }
 @media screen and (max-width: 1180px) {
-  .special-span {
-    top: 44%;
-  }
 }
 @media screen and (max-width: 1054px) {
   .special-text h1 {
     font-size: 75px;
   }
-  .special-span {
-    font-size: 23px;
-    top: 43%;
-    left: 43%;
-  }
+
   .special-text h3 {
     margin-top: 38px;
   }
@@ -100,13 +89,13 @@
   .special-text h1 {
     font-size: 65px;
   }
-  .special-span {
-    font-size: 13px;
-    left: 46%;
-    top: 46%;
-  }
+
   .special-text button {
     padding: 10px 50px;
+  }
+  .special-span {
+    font-size: 18px;
+    bottom: 0;
   }
 }
 @media screen and (max-width: 754px) {
@@ -119,12 +108,7 @@
   .special-text p {
     font-size: 13px;
   }
-  .special-span {
-    font-size: 13px;
-    padding: 13px;
-    left: 46%;
-    top: 50%;
-  }
+
   .special-text button {
     font-size: 13px;
     padding: 6px 30px;
@@ -133,9 +117,6 @@
 @media (max-width: 685px) {
   .special-text {
     top: 15px;
-  }
-  .special-span {
-    top: 40%;
   }
 }
 @media screen and (max-width: 630px) {
@@ -149,8 +130,8 @@
     padding-left: 30px;
   }
   .special-span {
-    top: 42%;
-    left: 42%;
+    font-size: 11px;
+    padding: 10px;
   }
 }
 @media screen and (max-width: 560px) {
@@ -169,10 +150,6 @@
   }
   .special-text-2 {
     padding-left: 30px;
-  }
-  .special-span {
-    top: 42%;
-    left: 39%;
   }
 }
 
@@ -197,12 +174,6 @@
   }
   .special-text-2 {
     padding-left: 25px;
-  }
-  .special-span {
-    top: 38%;
-    font-size: 11px;
-    padding: 10px;
-    left: 40%;
   }
 }
 @media screen and (max-width: 406px) {

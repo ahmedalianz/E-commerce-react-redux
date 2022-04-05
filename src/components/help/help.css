@@ -1,10 +1,14 @@
 /* -------------------------help-woman------------------- */
 .help-block {
+  font-family: "Cairo", sans-serif;
   position: fixed;
+  background-color: #2f086d;
+  position: fixed;
+  width: 70vw;
   z-index: 5;
-  top: -600px;
+  top: 50%;
+  left: -100%;
   opacity: 0;
-  left: -850px;
   animation: help 3s ease 40s forwards;
   -webkit-animation: help 3s ease 40s forwards;
 }
@@ -13,30 +17,21 @@
   display: none;
 }
 
-@-webkit-keyframes help {
-  to {
-    opacity: 1;
-    left: 0;
-    top: 200px;
-  }
-}
-
 @keyframes help {
   to {
     opacity: 1;
-    left: 0;
-    top: 200px;
+    left: 10%;
   }
 }
 
 .help-woman {
   z-index: 16;
   bottom: 0;
+  left: 0;
   position: absolute;
 }
 
 .help-text {
-  background-color: #2f086d;
   width: 80%;
   height: 250px;
   z-index: 15;
@@ -50,9 +45,9 @@
 
 .help-text h1 {
   color: white;
-  margin-left: 270px;
   font-weight: 900;
   font-size: 45px;
+  width: 80%;
 }
 
 .help-text .close {
@@ -60,7 +55,7 @@
   font-weight: 900;
   font-size: 30px;
   color: #fdfdfd;
-  left: 77%;
+  right: 0;
   border: inset 5px #0fafee;
   top: 0;
   background-color: #70d1c4;
@@ -102,9 +97,6 @@
   .help-text h1 {
     font-size: 29px;
   }
-  .help-text .close {
-    left: 75%;
-  }
 }
 
 @media screen and (max-width: 657px) {
@@ -124,9 +116,6 @@
   .help-woman {
     width: 80%;
   }
-  .help-text .close {
-    left: 74%;
-  }
 }
 
 @media screen and (max-width: 540px) {
@@ -138,7 +127,7 @@
     height: 180px;
   }
   .help-text .close {
-    left: 72%;
+    font-size: 20px;
   }
 }
 
@@ -149,9 +138,6 @@
   }
   .help-text {
     height: 150px;
-  }
-  .help-text .close {
-    left: 71%;
   }
   .help-text .help-button {
     padding: 4px 24px;
@@ -169,8 +155,7 @@
     height: 150px;
   }
   .help-text .close {
-    left: 71%;
-    font-size: 20px;
+    font-size: 15px;
   }
   .help-text .help-button {
     padding: 4px 20px;
@@ -181,6 +166,9 @@
 
 /* ---------------------------------------------------------------- */
 /* -----------------------------Help center----------------------------------- */
+.help-center-cont {
+  font-family: "Cairo", sans-serif;
+}
 .help-center {
   width: 60%;
   min-width: 330px;

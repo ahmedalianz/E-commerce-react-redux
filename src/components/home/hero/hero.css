@@ -22,12 +22,13 @@ body {
 .globalcenter {
   text-align: center;
   -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
 }
 
 .hero-head {
   width: 60%;
   padding: 70px 20px;
+  font-family: "Cairo", sans-serif;
 }
 
 .hero-head p:nth-child(1) {
@@ -63,13 +64,13 @@ body {
 /* ------------------------------ */
 /* -----------------hero image ------------ */
 .hero-image-block {
-  position: absolute;
   animation: hero-image 2s ease-in-out infinite alternate;
   -webkit-animation: hero-image 2s ease-in-out infinite alternate;
-  width: 350px;
-  right: 100px;
+  width: 500px;
 }
-
+.hero-box {
+  display: flex;
+}
 @-webkit-keyframes hero-image {
   from {
     top: 70px;
@@ -98,27 +99,32 @@ body {
   }
   .hero-image-block {
     width: 300px;
-    right: 50px;
   }
 }
 
 @media screen and (max-width: 560px) {
   .hero-image-block {
     width: 300px;
-    right: 100px;
-    margin-top: -75px;
   }
   .hero-head {
     width: 100%;
     padding: 240px 20px 0;
   }
+  .hero-box {
+    flex-direction: column;
+  }
+
+  .hero-image-block {
+    margin: auto;
+    width: 300px;
+    height: 300px;
+  }
+  .hero-head {
+    padding: 20px;
+  }
 }
 
 @media screen and (max-width: 430px) {
-  .hero-image-block {
-    right: 50px;
-    width: 250px;
-  }
   .hero-head h1 {
     font-size: 30px;
   }
